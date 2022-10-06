@@ -1,0 +1,16 @@
+/*This program promts the user to enter an angle measured in radians and converts it into degrees*/
+#include<stdio.h>
+#define DEGREE_FACTOR 57.295779
+int main()
+{
+// Local Declarations 
+double radians;
+double degrees;
+//Statements 
+printf("Enter the angle in radians:");
+scanf("%lf", &radians);
+degrees=radians *DEGREE_FACTOR;
+printf("%6.3f radains is %6.3f degrees\n",radians ,degrees);
+return 0;
+//main
+}

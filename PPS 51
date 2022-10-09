@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+   float a = 5;
+   float area = pow((a * sqrt(3)) / (sqrt(2)), 2);
+   printf("area = %f", area);
+   return 0;
+}

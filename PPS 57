@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+   float a = 5;
+   float area = 0.464 * a;
+   printf("The area is : %f",area);
+   return 0;
+}

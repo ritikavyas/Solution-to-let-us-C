@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+float area(float A) { //A is the side of the hexagon
+   if (A < 0) //if the value is negative it is invalid
+      return -1;
+   float area = (A*A) * float(3.0/2.0);
+   return area;
+}
+int main() {
+   float side = 5;
+   cout << "Area is: " << area(side);
+}
